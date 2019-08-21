@@ -7,8 +7,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'landing-page',
-      component: require('@/components/LandingPage').default
+      name: 'porygon',
+      component: require('@/components/Porygon').default
+      // name: 'landing-page',
+      // component: require('@/components/LandingPage').default
     },
     {
       path: '*',
